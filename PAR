@@ -1,0 +1,101 @@
+Capas de enlace: 
+OSI:
+1. Física
+2. Enlace de datos
+3. Red
+4. Transporte
+5. Sesión
+6. Presentación
+7. Aplicación
+
+TCP/IP:
+1.Acceso a la Red
+2. Red/Internet
+3.Transporte
+4.Aplicación
+
+Diferencias:
+Cabe destacar también que el modelo TCP/IP es el estándar para todas las rede, incluida
+Internet, mientras que OSI es un modelo de referencia, utilizado para comprender
+y diseñar la arquitectura del sistema.
+
+
+
+
+
+Encapsulamiento:
+
+______________________________
+        Datos de email
+______________________________
+Estos datos se subdividen en datos menores
+para que sea más fácil enviarlos
+
+______________________________
+|   Datos|    Datos|    Datos | 
+_______________________________
+Se aplica un encabezado de la capa de transporte
+
+______________________________
+Encabezado   |
+de la capa de|     Datos
+transporte   |
+______________________________
+Luego un encabezado de la red
+
+______________________________
+Encabezado  |Encabezado   |
+de la red   |de la capa de| Datos
+            |transporte   |
+______________________________
+Y por último el encabezado de la trama
+y el trailer de la misma
+
+________________________________________________________
+Encabezado  |Encabezado  |Encabezado   |      | Trailer de
+de la trama |de la red   |de la capa de| Datos| la trama
+            |transporte  |             |      |
+________________________________________________________
+
+
+
+
+
+
+Internet: 
+Internet es un conjunto de redes públicas y privadas interconectadas
+
+Arquitectura:
+Es como se organizan los distintos elementos de un sistema informático
+
+Arquitectura de red:
+Es como se organizan los distintos elementos de un sistema en red
+Ha de presentar: 
+        -tolerancia a fallos
+        -Escalabilidad
+        -Calidad de servicio
+        -Seguridad
+
+
+La función de la capa de enlace de datos de OSI:
+– Preparar los paquetes de la capa de red para ser
+transmitidos
+– y controlar el acceso a los medios físicos
+
+
+
+Trama: PDU de la capa de enlace de datos.
+
+Nodo: dispositivos de red conectados a un medio común.
+
+Medio (físico): medio físico para la transferencia de
+información entre dos nodos (cable de cobre, la fibra óptica,
+inalámbrico…).
+
+Red (física): dos o más nodos conectados a un medio común 
+
+
+
+Capa de red:
+Encargada de la transferencia de datos desde el
+host origen al host destino

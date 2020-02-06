@@ -5,7 +5,7 @@
 <!--Se define el canal-->
     <channel>
         <title> El Barcelona domestica al Real Madrid </title>
-        <link> https://www.abc.es/deportes/futbol/abci-real-madrid-barcelona-liga-santander-201903021910_directo.html </link>
+        <link>  </link>
         <descripcion> Resumen y charla sobre el clásico entre el Barcelona y el Real Madrid del 18 de diciembre de 2019</descripcion>
         <language> Spanish </language>
         <ttl>60 </ttl>
@@ -13,7 +13,7 @@
 <!-- publicaciones o entradas, (noticias en un blog) -->
     <item>
         <title> El Barcelona domestica al Real Madrid </title>
-        <link> Enlace a la publicación dentro de la página del canal </link>
+        <link> https://www.abc.es/deportes/futbol/abci-real-madrid-barcelona-liga-santander-201903021910_directo.html </link>
         <guid>Clave o identificador de la publicación</guid>
         <pubdate>Fecha de la publicación en formato rfc822</pubdate>
     </item>
